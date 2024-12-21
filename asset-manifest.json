@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-tour-site/static/css/main.731803cc.css",
+    "main.js": "/react-tour-site/static/js/main.fcbddafc.js",
+    "static/media/日本櫻花.jpg": "/react-tour-site/static/media/日本櫻花.e464fa38f00cbc0ba50a.jpg",
+    "static/media/富士山2.jpg": "/react-tour-site/static/media/富士山2.56ef5e9325bf348e1a66.jpg",
+    "static/media/清水寺.jpg": "/react-tour-site/static/media/清水寺.e8a03bda0ab88f5d53ca.jpg",
+    "static/media/富士山.jpg": "/react-tour-site/static/media/富士山.55a51280ce1b7533df2f.jpg",
+    "static/media/京都古城.jpg": "/react-tour-site/static/media/京都古城.366b79addca93d96948f.jpg",
+    "static/media/北海道雪景.jpg": "/react-tour-site/static/media/北海道雪景.5bf222435f8669755bbc.jpg",
+    "static/media/日本壽司.jpg": "/react-tour-site/static/media/日本壽司.39d3a755017fe812911e.jpg",
+    "static/media/大阪街頭.jpg": "/react-tour-site/static/media/大阪街頭.fcc8178faa3e1ec39e48.jpg",
+    "static/media/網站Logo.svg": "/react-tour-site/static/media/網站Logo.2910af95bd9a235f49154f82619b4211.svg",
+    "index.html": "/react-tour-site/index.html",
+    "main.731803cc.css.map": "/react-tour-site/static/css/main.731803cc.css.map",
+    "main.fcbddafc.js.map": "/react-tour-site/static/js/main.fcbddafc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.731803cc.css",
+    "static/js/main.fcbddafc.js"
+  ]
+}
