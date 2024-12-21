@@ -1,0 +1,92 @@
+$themeColor: rgba(152, 57, 255, 0.5);
+
+main {
+  section.background-img {
+    height: 70vh;
+    // border: 2px solid black;
+    background-image: url(../../assets/images/日本櫻花.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.75s ease;
+
+    position: relative;
+    z-index: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div.filter {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      z-index: -1;
+    }
+    h3 {
+      color: white;
+      font-size: 2.5rem;
+      text-align: center;
+    }
+  }
+  section.info-circles {
+    background-color: white;
+    padding: 2rem 1rem;
+    h3 {
+      text-align: center;
+      font-size: 2rem;
+    }
+    div.circles {
+      //   border: 3px solid black;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      div.circle {
+        // border: 3px solid rgb(152, 13, 13);
+        flex: 0 1 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        img {
+          width: 80%;
+          height: 100%;
+          border-radius: 50%;
+          padding: 0.3rem;
+
+          &:hover {
+            border: 3px solid $themeColor;
+          }
+        }
+      }
+    }
+  }
+  section.empty-container {
+    height: 70vh;
+    //   border: 3px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 0.7);
+    h3 {
+      font-size: 2.5rem;
+      color: white;
+    }
+  }
+  section.google-map {
+    background-color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    h3 {
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 1.25rem;
+      margin: 1rem;
+    }
+    iframe {
+      width: 100%;
+      height: 40vh;
+    }
+  }
+}
